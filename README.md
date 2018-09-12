@@ -10,7 +10,8 @@ Logs - contains tensorboard logs
 Here are the models configarations that performed the best:
 "{}-conv-{}-nodes-{}-dense-{}".format(conv_layer,layer_size,dense_layer,int(time.time()))
 
-Iter 1: Tried various combinations of configs 
+Iter 1: Tried various combinations of configs:
+
 		dense_layers = [0,1,2]
 		layer_sizes = [32,64,128] #dense layer sizes
 		conv_layers = [1,2,3]
