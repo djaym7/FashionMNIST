@@ -10,8 +10,12 @@ Logs - contains tensorboard logs
 Here are the models configarations that performed the best:
 "{}-conv-{}-nodes-{}-dense-{}".format(conv_layer,layer_size,dense_layer,int(time.time()))
 
-Iter 1:
-
+Iter 1: Tried various combinations of configs 
+		dense_layers = [0,1,2]
+		layer_sizes = [32,64,128] #dense layer sizes
+		conv_layers = [1,2,3]
+		
+	Result:
 	least loss : 
 			1-128-1, 
 			2-128-1
@@ -23,6 +27,7 @@ Iter 1:
 	Most validation accuracy:
 			2-128-1 by a good margin, 
 			1-128-1
+			
 Iter 2: Increased dense layers to 512
 
 	Result:
