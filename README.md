@@ -40,5 +40,8 @@ Iter 2: Increased dense layers to 512
 		loss=0.06399,
 		val_loss=0.3881
 
+RNN model: 
 
-		
+	To test it out, the the model was tested with the same dataset and achieved accuracy of over 85% but 
+	took more resources and time compared to CNN model.
+			
